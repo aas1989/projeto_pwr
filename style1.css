@@ -1,0 +1,87 @@
+body {
+  /*background-color: #3cb371;*/
+  background-color: rgb(233, 227, 206);
+  /*background-size: 3000px 1000px;*/
+  background-size: 100%;
+  font-family: 'Lato';
+  line-height: 1.5;
+  color: rgb(233, 227, 206);
+}
+main {
+  background-color: rgb(233, 227, 206);
+  /* padding: 5px 40px; */
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.logo img {
+  border-radius: 150px;
+  border: 5px solid #ffff00;
+}
+.logo {
+  text-align: center;
+}
+article {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #006400;
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  background-color:#006400;
+  list-style:none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 2px 10px;
+  display: inline-block;
+
+  /* visual do link */
+  background-color:#006400;
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid #006400;
+}
+nav a:hover{
+  color: #ffff00;
+}
+
+.imgback{
+  width: 100%;
+  height: 700px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  color: aliceblue;
+  background: black;
+}
+.LOCALIZADO {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(233, 227, 206);
+}
+.mapa {
+  text-align: center;
+}
+.center {
+  color: green
+}
+
+
+
+
+
